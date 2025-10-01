@@ -21,7 +21,7 @@ export default function Home() {
             </div>
 
             <div className="content text-white w-[500px] max-sm:w-[300px]">
-              "Every time you donate blood, you are offering hope to families in need and giving someone a chance to see another tomorrow"
+              &quot;Every time you donate blood, you are offering hope to families in need and giving someone a chance to see another tomorrow&quot;
             </div>
             <div className="flex gap-5 mt-5">
               <Link href="/user/donor"><button className="bg-white text-red-600 rounded-full px-5 p-2">Donor</button></Link>
