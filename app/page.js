@@ -27,28 +27,6 @@ export default function Home() {
               <Link href="/user/donor"><button className="bg-white text-red-600 rounded-full px-5 p-2">Donor</button></Link>
               <Link href="/user/requestor"><button className="bg-white text-red-600 rounded-full px-5 p-2">Requestor</button></Link>
             </div>
-            <div className="card flex justify-between items-center w-[90%] px-10 mt-20 max-md:px-0 max-md:flex max-md:flex-col max-md:justify-center max-md:items-center max-md:gap-3">
-              <div className="whitebg bg-white w-[200px] h-[100px] rounded-xl">
-                  <div className="dlexcol flex flex-col justify-center items-center h-[14vh]">
-                    <div className="totalcount text-red-600 font-semibold">
-                      Total Blood Donors
-                    </div>
-                    <div className="text-red-600 font-semibold">
-                      {count}
-                    </div>
-                  </div>
-              </div>
-              <div className="whitebg bg-white w-[200px] h-[100px] rounded-xl">
-                  <div className="dlexcol flex flex-col justify-center items-center h-[14vh]">
-                    <div className="totalcount text-red-600 font-semibold">
-                      Total Requestors
-                    </div>
-                    <div className="text-red-600 font-semibold">
-                      {counts}
-                    </div>
-                  </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
