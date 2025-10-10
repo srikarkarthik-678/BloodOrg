@@ -32,7 +32,6 @@ const page = () => {
 
     return (
         <div>
-            {/* Navbar */}
             <div className="Navbar">
                 <div className="navbar flex justify-between items-center px-5 py-3 bg-white fixed top-0 w-full shadow-md z-50 font-title">
                     <Link href="/">
@@ -200,12 +199,11 @@ const page = () => {
                                              <input
                                             type="date"
                                             className="p-2 border border-gray-400 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
-                                            required
                                             name="Last Donation"
                                             value={value !== "None" ? value : ""}
                                             onChange={(e) => setValue(e.target.value)}
                                         />
-                                        <input type="radio" value="None" id="None" checked={value === "None"} onChange={() => setValue("None")}/>
+                                        <input type="radio" value="None" id="None" checked={value === "None"} onChange={() => setValue("None")} name="None"/>
                                         <label htmlFor="None">None</label>
                                         </div>
                                     </div>
